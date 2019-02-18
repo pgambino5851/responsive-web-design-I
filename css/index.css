@@ -225,6 +225,12 @@ header .cta button{
 	text-align: left;
 }
 
+@media(max-width: 500px) {
+    .top-content section {
+        margin: 3% auto;
+    }
+}
+
 .container .middle-img{
 	margin: 0 auto;
 	display: flex;
@@ -233,7 +239,7 @@ header .cta button{
 }
 
 @media(max-width: 800px){
-    .container .middle-img img{
+    .container .middle-img img {
         width: 100%;
     }
 }
@@ -254,9 +260,14 @@ header .cta button{
     }
 }
 
-
 .bottom-content section{
 	margin: 0 1%;
+}
+
+@media(max-width: 500px){
+    .bottom-content section {
+        margin: 3% auto;
+    }
 }
 address{
     display: flex;
